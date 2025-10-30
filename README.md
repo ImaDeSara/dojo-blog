@@ -5,6 +5,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+# Dojo Blog
+
+A **React blog application** built with Create React App, featuring dynamic routing with **React Router v6**. Users can view blogs, create new posts, and see blog details.  
+
+This project is deployed on **Vercel** and hosted as a live web app.
+
+---
+
+## 📦 Features
+
+- **Home Page**: Lists all blog posts.
+- **Create Blog**: Form to create and add a new blog.
+- **Blog Details**: View individual blog details using dynamic routes.
+- **Responsive Navigation**: Navbar with links to different pages.
+- **React Router v6**: Clean and modern routing with `Routes`, `Route`, and `useNavigate`.
+- **React Hooks**: `useState` and `useEffect` for state management and API fetching.
+- **Modern JavaScript (ES6+)**: Arrow functions, destructuring, template literals.
+
+---
+
+## 🛠 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/dojo-blog.git
 
 ### `npm start`
 
