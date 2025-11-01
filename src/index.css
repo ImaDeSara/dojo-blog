@@ -12,10 +12,10 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #deca58;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #424d78;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #deca58;
 }
 .content {
   max-width: 600px;
@@ -41,12 +41,17 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  /* box-shadow: 1px 3px 5px rgba(0,0,0,0.1); */
+    box-shadow: 1px 3px 5px #f1ebc5;
+
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #6e95cf;
   margin-bottom: 8px;
+}
+.blog-preview p {
+  color: #6d6f72;
 }
 .blog-preview a{
   text-decoration: none;
@@ -55,14 +60,14 @@
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #6e95cf;
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #6e95cf;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -82,8 +87,11 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #6e95cf;
   margin-bottom: 30px;
+}
+.create input {
+  color: #deca58;
 }
 .create input, .create textarea, .create select {
   width: 100%;
@@ -94,10 +102,16 @@
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #6e95cf;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* Style the individual options */
+select option {
+  background-color: #deca58; /* background of dropdown options */
+  color: #000;             
 }
